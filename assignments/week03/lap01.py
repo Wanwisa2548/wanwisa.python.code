@@ -15,10 +15,6 @@ if age>=60:
     answer=("Senior")
 
 print("You are : ",answer)
-
-
-
-
 # Add your if-elif-else statements here
 # 0-12: Child
 # 13-19: Teenager  
