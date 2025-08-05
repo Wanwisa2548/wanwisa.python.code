@@ -22,7 +22,7 @@ def number_operations():
     # Get 10 numbers from user
     print("Enter 10 numbers:")
     for i in range(10):
-        number = int(input("Insert number[" + i +"]"))
+        number = int(input(f"Insert number[{i}]: "))
         numbers.append(number)
     
     # Display original list
