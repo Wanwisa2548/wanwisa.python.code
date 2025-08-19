@@ -2,7 +2,7 @@ person = []
 
 while True:
     name = input("Enter your name :")
-    if name.lower() == "end":
+    if name == "end":
         break
     person.append(name)
     print(person)

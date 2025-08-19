@@ -1,18 +1,21 @@
 students = {}
+
 while True:
-    code = input("number code : ")
+    code = input("Enter code number : ")
     if code == "end":
         break
 
     name = input("Your name : ")
     age = int(input("Your age : "))
-    grade = input("Your grade : ")
+    grade = input("your grade : ")
 
     students[code] = {
-        "name":name,
+        "name": name,
         "age":age,
         "grade":grade
     }
-print("All info ")
+    print(students)
+
+print("All infomation  ")
 for code , info in students.items():
-    print(f"code {code} : {info}")
+    print(f"Code ",{code} , {info})

@@ -1,13 +1,13 @@
 #หาผลรวมของ list
 
-numbers=[]
+numbers = []
+
 while True:
-    n = input("Enter number ")
-    if n == "stop":
+    n = input("Enter number : ")
+    if n == "end":
         break
     numbers.append(int(n))
-print("Total is :", sum(numbers))
-
+print("Total is :",sum(numbers))
 
 
 
