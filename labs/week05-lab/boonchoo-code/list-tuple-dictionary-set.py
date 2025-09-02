@@ -14,7 +14,7 @@ phone_book = {
     "Charlie": "555-123-4567"
 }
 
-# 3. Counting occurrences
+# 3. Counting occurrences สร้างข้อความหรือคำ ใน dictionary อาจารย์บอกว่าไม่มีความจำเป็นจำที่จะต้องเขียน แนะนำให้ใช้ list
 text = "hello world hello python"
 word_count = {}
 for word in text.split():
@@ -27,7 +27,7 @@ email_subscribers = {"alice@email.com", "bob@email.com", "charlie@email.com"}
 email_subscribers.add("alice@email.com")  # Won't add duplicate
 print(f"Unique subscribers: {email_subscribers}")
 
-# 2. Mathematical set operations
+# 2. Mathematical set operations ในนี้มี Active และอยู่ใน premium ตอบเป็น user ว่ามีใครบ้าง
 active_users = {"user1", "user2", "user3", "user4"}
 premium_users = {"user2", "user4", "user5"}
 active_premium = active_users & premium_users
@@ -39,7 +39,7 @@ user_code = "B002"
 if user_code in valid_codes:  # O(1) average time
     print("Valid code!")
 
-# 4. Removing duplicates from lists
+# 4. Removing duplicates from lists สามารถลบข้อมูลที่ซ้ำกันได้ เช่นคำถาม จงแปลงเซ็ตนี้ที่กำหนดให้ ให้ข้อมูลไม่ซ้ำกัน
 numbers_with_duplicates = [1, 2, 2, 3, 3, 3, 4, 5]
 unique_numbers = list(set(numbers_with_duplicates))
 print(f"Unique numbers: {unique_numbers}")
