@@ -2,6 +2,7 @@ class Car:
     # Class attribute (shared by all instances)
     wheels = 4
     vehicle_type = "Car"
+    #
     
     def __init__(self, brand, model, year):
         # Instance attributes (unique to each instance)

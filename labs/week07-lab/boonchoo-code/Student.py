@@ -1,5 +1,6 @@
 class Student:
     """A simple Student class"""
+    #ข้อมูลเกี่ยวกับนักเรียนและแก้ไขเกี่ยวกับการเรียน
     
     def __init__(self, name, age, student_id):
         self.name = name           # Instance attribute
@@ -26,9 +27,23 @@ class Student:
 # Creating objects (instances)
 student1 = Student("Alice", 20, "S001")
 student2 = Student("Bob", 19, "S002")
+student3 = Student("Penguin", 25 ,"S003")
 
 # Using methods
 print(student1.introduce())
 print(student1.add_course("Python Programming"))
 print(student1.add_course("Data Structures"))
 print(student1.show_courses())
+
+print(student2.introduce())
+print(student2.add_course("Python Programming"))
+print(student2.add_course("Data Structures"))
+print(student2.show_courses())
+print(student2.add_course("Math"))
+print(student2.add_course("Chemistry"))
+print(student2.add_course("Physics"))
+
+print(student3.introduce())
+print(student3.add_course("Python Programming"))
+print(student3.add_course("Data Structures"))
+print(student3.show_courses())

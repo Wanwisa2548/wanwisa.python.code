@@ -57,8 +57,8 @@ def analyze_scores(numbers):
 
     morethan70 = 0
     for number in numbers:
-        if number > = 70:
-            morethan70 += 1;
+         if number > = 70:
+             morethan70 += 1;
     
     return {
         'sum': total,

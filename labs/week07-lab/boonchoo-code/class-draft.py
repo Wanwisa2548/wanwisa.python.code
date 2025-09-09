@@ -10,6 +10,6 @@ class ClassName:
         return something
 
 
-myObj = ClassName(parameters)
-print(myObj.attribute)
-resultFromMethod = myObj.method_name()
+myObj = ClassName(parameters) #สร้างตอนปั๊มต้องส่งค่ามา (พารามิเตอร์)
+print(myObj.attribute) #คือค่าของวัตถุที่เกิดจากค่าไตรยาง
+resultFromMethod = myObj.method_name() #เรียกใช้method
