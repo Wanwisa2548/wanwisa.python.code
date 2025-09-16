@@ -29,20 +29,19 @@ high_scores = {name: score for name, score in scores.items() if score >= 90}
 print(f"High scores (>=90): {high_scores}")
 
 # Finding min/max
-best_student = max(scores, key=scores.get)
+best_student = max(scores, key=scores.get) #ใช้ method ชื่อ get
 worst_student = min(scores, key=scores.get)
 print(f"Best student: {best_student} with {scores[best_student]}")
 print(f"Lowest score: {worst_student} with {scores[worst_student]}")
 
 # fromkeys() method
 subjects = ["Math", "Science", "English"]
-default_scores = dict.fromkeys(subjects, 0)
+default_scores = dict.fromkeys(subjects, 0) # ชื่อ method fromkey(), กำหนดค่าเริ่มต้นคือ 0, สร้าง method จาก list
 print(f"Default scores: {default_scores}")
 
-# setdefault() method
+# setdefault() method  การกำหนดค่าเริ่มต้น
 student_grades = {}
-student_grades.setdefault("Alice", []).append(85)
+student_grades.setdefault("Alice", []).append(85) # ยัดข้อมูลเท่ากับ 85 ลงไปใน alice
 student_grades.setdefault("Alice", []).append(92)
 student_grades.setdefault("Bob", []).append(78)
 print(f"Student grades: {student_grades}")
-
